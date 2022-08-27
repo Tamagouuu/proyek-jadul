@@ -1,0 +1,3 @@
+
+// Ini berfungsi untuk ngambil nama kelas dari id kelas yang udah dibuat (Just in case nanti dipakai ya kan hehehe)
+<?= implode(query("SELECT nama_kelas FROM kelas WHERE id_kelas = '{$data["id_kelas"]}'")[0]) ?>
